@@ -13,15 +13,16 @@ license=('PHP')
 url='http://www.php.net'
 makedepends=('file' 'libmcrypt' 'libltdl' 'libpng' 'libjpeg' 'icu'
              'curl' 'bzip2' 'db' 'gmp' 'systemd')
+validpgpkeys=('0BD78B5F97500D450838F95DFE857D9A90D90EC1') # Ronald M. Hoering
 source=("http://www.php.net/distributions/${pkgbase}-${pkgver}.tar.gz"
         "http://www.php.net/distributions/${pkgbase}-${pkgver}.tar.gz.asc"
         'logrotate.d.php-fpm' 'php-fpm.service' 'php-fpm.tmpfiles')
 
 sha1sums=('SKIP'
           'SKIP'
-	  '688e35049f78011f514a87506890d56c5a15654d'
-	  '09e9b0a73a921b063ac357faaf422af106b94487'
-	  'a32b34b8f0262317c865260cf937fcbccbaf8927')
+	  'SKIP'
+	  'SKIP'
+	  'SKIP')
 
 build() {
 	cd ${srcdir}/php-${pkgver}
