@@ -1,2 +1,3 @@
-Please note I am using the 01_raspberrypi tree for the x86_64 packages.
-I do not want to create a new root level for x86_64 without the RuneAudio teams guidance.
+After speaking with the RuneAudio, the directory tree name of "00_x86_64" was chosen for the new x86_64 build.
+
+Packages for Raspberry Pi and x85_64 were sorted into their appropriate directory tree.
